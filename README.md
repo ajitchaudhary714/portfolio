@@ -8,7 +8,6 @@ A modern and responsive developer portfolio built with **Next.js**, **React.js**
 
 ## 📸 Preview
 
-> Add a screenshot of your portfolio here.
 
 ![Portfolio Preview](./public/Ajit2.png)
 

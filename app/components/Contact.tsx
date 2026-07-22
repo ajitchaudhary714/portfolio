@@ -79,7 +79,7 @@ const socialLinks = [
   return (
     <section
       id="contact"
-      className="relative min-h-screen bg-[#121212] text-white py-24 px-6 overflow-hidden flex flex-col justify-center items-center"
+      className="relative  bg-[#121212] text-white py-12 sm:py-24 px-6 overflow-hidden flex flex-col justify-center items-center"
     >
       {/* Animated Floating Background */}
       <Background />
@@ -87,7 +87,7 @@ const socialLinks = [
       <div className="max-w-4xl mx-auto w-full z-10">
         {/* Section Title */}
         <div className="text-center mb-12">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white tracking-wide">
+          <h2 className="text-2xl sm:text-5xl font-extrabold text-white tracking-wide">
             Get In <span className="text-emerald-400">Touch</span>
           </h2>
           <p className="text-gray-400 mt-3 text-sm sm:text-base">

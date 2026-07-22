@@ -73,7 +73,7 @@ export default function Experience() {
   return (
     <section
       id="experience"
-      className="relative min-h-screen bg-[#121212] text-white py-24 px-6 overflow-hidden flex flex-col justify-center items-center"
+      className="relative  bg-[#121212] text-white py-12 sm:py-24  px-4 sm:px-6 overflow-hidden flex flex-col justify-center items-center"
     >
       {/* Background Floating Animation */}
       <Background />
@@ -81,7 +81,7 @@ export default function Experience() {
       <div className="max-w-5xl mx-auto w-full z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white tracking-wide">
+          <h2 className="text-2xl sm:text-5xl font-extrabold text-white tracking-wide">
             Work <span className="text-emerald-400">Experience</span>
           </h2>
           <p className="text-gray-400 mt-3 text-sm sm:text-base">
@@ -109,9 +109,9 @@ export default function Experience() {
               </div>
 
               {/* Glassmorphic Card */}
-              <div className="bg-[#1e1e1e]/70 border border-white/10 backdrop-blur-md p-6 rounded-2xl shadow-xl hover:border-emerald-500/40 transition-all duration-300 hover:shadow-emerald-500/10">
+              <div className="bg-[#1e1e1e]/70 border border-white/10 backdrop-blur-md p-4 sm:p-6 rounded-2xl shadow-xl hover:border-emerald-500/40 transition-all duration-300 hover:shadow-emerald-500/10">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
-                  <h3 className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                  <h3 className="text-lg sm:text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
                     {exp.role}
                   </h3>
                   <span className="text-xs text-gray-400  bg-white/5 px-3 py-1 rounded-full w-fit">
@@ -125,7 +125,7 @@ export default function Experience() {
 
                 {/* Bullets List */}
 {/* Bullets List */}
-<ul className="list-disc list-outside pl-5 space-y-2 text-gray-300 text-sm leading-relaxed mb-6">
+<ul className="list-disc list-outside  pl-3 sm:pl-5 space-y-2 text-gray-300 text-xs sm:text-sm leading-relaxed mb-6">
   {exp.highlights.map((item, i) => (
     <li key={i} className="pl-1">
       {item}
@@ -137,7 +137,7 @@ export default function Experience() {
                   {exp.skills.map((skill, i) => (
                     <span
                       key={i}
-                      className="text-xs font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-2.5 py-1 rounded-md"
+                      className="text-xs font-medium bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 px-1.5 sm:px-2.5 py-1 rounded-md"
                     >
                       {skill}
                     </span>

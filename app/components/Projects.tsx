@@ -52,7 +52,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative min-h-screen bg-[#121212] text-white py-24 px-6 overflow-hidden flex flex-col justify-center items-center"
+      className="relative  bg-[#121212] text-white py-12 sm:py-24 px-4 sm:ßpx-6 overflow-hidden flex flex-col justify-center items-center"
     >
       {/* Animated Floating Background */}
       <Background />
@@ -60,7 +60,7 @@ export default function Projects() {
       <div className="max-w-6xl mx-auto w-full z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white tracking-wide">
+          <h2 className="text-2xl sm:text-5xl font-extrabold text-white tracking-wide">
             Featured <span className="text-emerald-400">Projects</span>
           </h2>
           <p className="text-gray-400 mt-3 text-sm sm:text-base">
@@ -112,7 +112,7 @@ export default function Projects() {
                 </div>
 
                 {/* Project Title */}
-                <h3 className="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors mb-3">
+                <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors mb-3">
                   {project.title}
                 </h3>
 

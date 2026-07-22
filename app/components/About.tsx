@@ -20,7 +20,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative min-h-screen bg-[#121212] text-white py-24 px-6 overflow-hidden flex items-center justify-center"
+      className="relative bg-[#121212] text-white py-24 px-4 md:px-6 overflow-hidden flex items-center justify-center"
     >
       {/* Floating Animated Background */}
       <Background />
@@ -29,11 +29,11 @@ export default function About() {
         
         {/* Left Column: Text & Information */}
         <div className="flex flex-col text-left">
-          <h2 className="text-4xl font-extrabold text-emerald-400 mb-6 tracking-wide">
+          <h2 className="text-2xl sm:text-4xl font-extrabold text-emerald-400 mb-6 tracking-wide">
             About me
           </h2>
 
-          <div className="text-gray-300 space-y-4 text-base leading-relaxed mb-6">
+          <div className="text-gray-300 space-y-4 text-sm sm:text-base leading-relaxed mb-6">
             <p>
               Hi there! I'm <span className="font-bold text-white">Ajit Verma</span>, 
               a passionate Frontend & Web Developer with 2+ years of experience building modern, 
@@ -51,26 +51,26 @@ export default function About() {
 
           {/* Education Section */}
           <div className="mb-6">
-            <h3 className="text-emerald-400 font-bold text-lg mb-1">Education:</h3>
-            <p className="font-semibold text-white">Bachelor of Technology (CSE)</p>
-            <p className="text-gray-400 text-sm">Dr. A.P.J. Abdul Kalam Technical University, Lucknow | 2019-2023
+            <h3 className="text-emerald-400 font-bold text-base md:text-lg mb-1">Education:</h3>
+            <p className="font-semibold text-sm sm:text-base text-white">Bachelor of Technology (CSE)</p>
+            <p className="text-gray-400  text-xs sm:text-sm">Dr. A.P.J. Abdul Kalam Technical University, Lucknow | 2019-2023
 
 </p>
- <p className="text-gray-400 text-sm">8.3 CGPA
+ <p className="text-gray-400 text-xs sm:text-sm">8.3 CGPA
 
 </p>
           </div>
 
           {/* Experience Section */}
           <div className="mb-8">
-            <h3 className="text-emerald-400 font-bold text-lg mb-1">Experience:</h3>
-            <p className="font-semibold text-white">Frontend Developer</p>
-            <p className="text-gray-400 text-sm">2+ Years of Hands-on Experience</p>
+            <h3 className="text-emerald-400 font-bold text-base sm:text-lg mb-1">Experience:</h3>
+            <p className="font-semibold text-sm sm:text-base text-white">Frontend Developer</p>
+            <p className="text-gray-400 text-xs  sm:text-sm">2+ Years of Hands-on Experience</p>
           </div>
 
           {/* Main Skills Badges */}
           <div>
-            <h3 className="text-emerald-400 font-bold text-lg mb-3">Here are my main skills:</h3>
+            <h3 className="text-emerald-400 font-bold  text-base sm:text-lg mb-3">Here are my main skills:</h3>
             <div className="flex flex-wrap gap-2.5">
               {skills.map((skill, idx) => (
                 <span
@@ -86,7 +86,7 @@ export default function About() {
 
         {/* Right Column: Profile Picture Card */}
         <div className="flex justify-center items-center">
-          <div className="relative w-full max-w-md h-[450px] rounded-2xl overflow-hidden border-2 border-emerald-500/30 shadow-2xl shadow-emerald-500/10 group">
+          <div className="relative w-full max-w-md h-[350px] sm:h-[450px] rounded-2xl overflow-hidden border-2 border-emerald-500/30 shadow-2xl shadow-emerald-500/10 group">
             {/* Glowing Accent Gradient Background */}
             <div className="absolute inset-0 bg-gradient-to-tr from-emerald-500/20 via-purple-500/20 to-pink-500/20 z-0" />
             

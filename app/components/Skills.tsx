@@ -42,7 +42,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="relative min-h-screen bg-[#121212] text-white py-24 px-6 overflow-hidden flex flex-col justify-center items-center"
+      className="relative  bg-[#121212] text-white py-12  sm:py-24 px-4 sm:px-6 overflow-hidden flex flex-col justify-center items-center"
     >
       {/* Background Floating Animation */}
       <Background />
@@ -50,7 +50,7 @@ export default function Skills() {
       <div className="max-w-6xl mx-auto w-full z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-white tracking-wide">
+          <h2 className="text-2xl sm:text-5xl font-extrabold text-white tracking-wide">
             My <span className="text-emerald-400">Skills</span>
           </h2>
           <p className="text-gray-400 mt-3 text-sm sm:text-base">

@@ -17,7 +17,7 @@ export default function Background() {
       {techIcons.map((icon, idx) => (
         <motion.div
           key={idx}
-          className={`absolute px-2.5 py-1 text-xs font-bold rounded-md border backdrop-blur-sm shadow-sm opacity-30 hover:opacity-100 transition-opacity duration-300 ${icon.bg}`}
+          className={`absolute px-2.5 py-1 text-xs font-bold rounded-md border backdrop-blur-sm shadow-sm opacity-15 hover:opacity-100 transition-opacity duration-300 ${icon.bg}`}
           style={{ top: icon.top, left: icon.left }}
           animate={{
             y: [0, -25, 0],
