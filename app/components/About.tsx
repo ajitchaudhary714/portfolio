@@ -50,7 +50,16 @@ export default function About() {
           </div>
 
           {/* Education Section */}
-         
+          <div className="mb-6">
+            <h3 className="text-emerald-400 font-bold text-lg mb-1">Education:</h3>
+            <p className="font-semibold text-white">Bachelor of Technology (CSE)</p>
+            <p className="text-gray-400 text-sm">Dr. A.P.J. Abdul Kalam Technical University, Lucknow | 2019-2023
+
+</p>
+ <p className="text-gray-400 text-sm">8.3 CGPA
+
+</p>
+          </div>
 
           {/* Experience Section */}
           <div className="mb-8">

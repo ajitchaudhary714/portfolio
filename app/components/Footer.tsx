@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Background from "./Background"; // Floating Tech Icons Background
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -39,7 +38,6 @@ export default function Footer() {
   return (
     <footer className="relative bg-[#121212] text-white py-12 px-6 border-t border-white/10 overflow-hidden">
       {/* Background Floating Animation */}
-      <Background />
 
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 z-10 relative">
         {/* Logo / Brand Name */}

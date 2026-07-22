@@ -57,7 +57,7 @@ export default function Projects() {
       {/* Animated Floating Background */}
       <Background />
 
-      <div className="max-w-7xl mx-auto w-full z-10">
+      <div className="max-w-6xl mx-auto w-full z-10">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-extrabold text-white tracking-wide">

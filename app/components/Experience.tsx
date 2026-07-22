@@ -8,10 +8,36 @@ export default function Experience() {
   // Professional Experience Data
   const experiences = [
     {
+      company: "Self-Employed",
+      role: "Freelance Frontend Developer",
+      duration: "Jan 2026 – Present",
+      location: "Remote",
+      highlights: [
+        "Developed and deployed modern web applications using React.js, Next.js, TypeScript, and Tailwind CSS.",
+        "Integrated REST APIs and third-party services for authentication, payments, and data management.",
+        "Built AI-powered features using OpenAI APIs, including intelligent content generation, chat assistants, and automation workflows.",
+        "Implemented dynamic dashboards, reusable component libraries, and responsive user interfaces.",
+        "Worked with React Hook Form, Zod, Redux Toolkit, and TanStack Query for scalable frontend architecture.",
+        "Optimized application performance through code splitting, lazy loading, and SEO best practices in Next.js.",
+        "Collaborated directly with clients to gather requirements, deliver projects, and provide ongoing technical support."
+      ],
+      skills: [
+        "React.js",
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "OpenAI API",
+        "TanStack Query",
+        "React Hook Form",
+        "Zod",
+        "Redux Toolkit",
+        "REST APIs"
+      ]
+    },
+    {
       company: "RedSecOps Cyber India Pvt Ltd ",
       role: "Frontend Developer",
-            duration: "Nov 2023 - Jan 2026",
-
+      duration: "Nov 2023 - Jan 2026",
       location: "Full-Time",
       highlights: [
         "Architected and optimized responsive web dashboards using React.js, Next.js, and Tailwind CSS.",
@@ -19,24 +45,21 @@ export default function Experience() {
         "Seamlessly integrated complex RESTful APIs and state management to enhance overall platform performance.",
       ],
       skills: [
-
-  "Next.js (App Router)",
-  "TypeScript",
-  "JavaScript (ES6+)",
-  "Tailwind CSS",
-  "Framer Motion",
-  "Redux Toolkit ",
-  "REST APIs & GraphQL",
-  "Shadcn UI",
-  "Git & GitHub",
-]
-      },
+        "Next.js (App Router)",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "Tailwind CSS",
+        "Framer Motion",
+        "Redux Toolkit ",
+        "REST APIs & GraphQL",
+        "Shadcn UI",
+        "Git & GitHub",
+      ]
+    },
     {
-            company: "Tech Curve AI",
-
+      company: "Tech Curve AI",
       role: "Frontend Developer",
-            duration: "Mar 2023 - Oct 2023",
-
+      duration: "Mar 2023 - Oct 2023",
       location: " Remote",
       highlights: [
         "Developed cross-browser compatible, high-performing web interfaces following modern UI/UX design guidelines.",
@@ -91,22 +114,24 @@ export default function Experience() {
                   <h3 className="text-xl font-bold text-white group-hover:text-emerald-400 transition-colors">
                     {exp.role}
                   </h3>
-                  <span className="text-xs text-gray-400 bg-white/5 px-3 py-1 rounded-full w-fit">
+                  <span className="text-xs text-gray-400  bg-white/5 px-3 py-1 rounded-full w-fit">
                     {exp.location}
                   </span>
                 </div>
 
-                <p className="text-emerald-400 text-sm font-semibold mb-4">
+                <p className="text-emerald-400 group-hover:text-gray-100 transition-colors text-sm font-semibold mb-4">
                   {exp.company}
                 </p>
 
                 {/* Bullets List */}
-                <ul className="list-disc list-inside space-y-2 text-gray-300 text-sm leading-relaxed mb-6">
-                  {exp.highlights.map((item, i) => (
-                    <li key={i}>{item}</li>
-                  ))}
-                </ul>
-
+{/* Bullets List */}
+<ul className="list-disc list-outside pl-5 space-y-2 text-gray-300 text-sm leading-relaxed mb-6">
+  {exp.highlights.map((item, i) => (
+    <li key={i} className="pl-1">
+      {item}
+    </li>
+  ))}
+</ul>
                 {/* Tech Stack Pills */}
                 <div className="flex flex-wrap gap-2">
                   {exp.skills.map((skill, i) => (
