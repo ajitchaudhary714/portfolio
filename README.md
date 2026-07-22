@@ -10,7 +10,7 @@ A modern and responsive developer portfolio built with **Next.js**, **React.js**
 
 > Add a screenshot of your portfolio here.
 
-![Portfolio Preview](./public/images/portfolio-preview.png)
+![Portfolio Preview](./public/Ajit2.png)
 
 ---
 
@@ -59,7 +59,7 @@ portfolio/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/ajitchaudhary714/portfolio.git
 ```
 
 ### Navigate to the project
@@ -90,9 +90,9 @@ Open http://localhost:3000 in your browser.
 
 📧 Email: your-email@example.com
 
-💼 LinkedIn: https://linkedin.com/in/your-profile
+💼 LinkedIn: https://www.linkedin.com/in/ajit-verma-174ba5250/
 
-🐙 GitHub: https://github.com/your-username
+🐙 GitHub: https://github.com/ajitchaudhary714
 
 🌐 Portfolio: https://your-portfolio-url.vercel.app
 
