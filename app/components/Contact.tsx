@@ -1,3 +1,7 @@
+
+
+
+
 "use client";
 
 import React, { useState } from "react";
@@ -5,9 +9,17 @@ import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import Background from "./Background"; // Floating Tech Icons Background
 
+// Type definition for form inputs
+type ContactFormData = {
+  name: string;
+  email: string;
+  message: string;
+};
+
 export default function Contact() {
   const [status, setStatus] = useState({ loading: false, success: false, error: false });
-const socialLinks = [
+
+  const socialLinks = [
     {
       name: "LinkedIn",
       href: "https://www.linkedin.com/in/ajit-verma-174ba5250/",
@@ -37,16 +49,16 @@ const socialLinks = [
     },
   ];
 
-  // React Hook Form initialization
+  // React Hook Form initialization with typed fields
   const {
     register,
     handleSubmit,
     reset,
     formState: { errors },
-  } = useForm();
+  } = useForm<ContactFormData>();
 
-  // Form submission handler
-  const onSubmit = async (data) => {
+  // Form submission handler with explicit parameter typing
+  const onSubmit = async (data: ContactFormData) => {
     setStatus({ loading: true, success: false, error: false });
 
     const formData = new FormData();
@@ -79,7 +91,7 @@ const socialLinks = [
   return (
     <section
       id="contact"
-      className="relative  bg-[#121212] text-white py-12 sm:py-24 px-6 overflow-hidden flex flex-col justify-center items-center"
+      className="relative bg-[#121212] text-white py-12 sm:py-24 px-6 overflow-hidden flex flex-col justify-center items-center"
     >
       {/* Animated Floating Background */}
       <Background />
@@ -122,7 +134,7 @@ const socialLinks = [
                 </span>
                 <span>+91 9026029479</span>
               </div>
-               <div className="flex items-center gap-3 text-gray-300">
+              <div className="flex items-center gap-3 text-gray-300">
                 <span className="p-2 bg-emerald-500/10 text-emerald-400 rounded-lg">
                   📍
                 </span>
@@ -135,20 +147,20 @@ const socialLinks = [
               <p className="text-xs text-gray-400 mb-3 uppercase tracking-wider font-semibold">
                 Social Profiles
               </p>
-               <div className="flex items-center gap-4">
-          {socialLinks.map((social) => (
-            <a
-              key={social.name}
-              href={social.href}
-              target="_blank"
-              rel="noreferrer"
-              aria-label={social.name}
-              className="p-3 bg-white/5 hover:bg-emerald-500 hover:text-black text-gray-300 rounded-xl transition-all duration-300 border border-white/10 hover:border-emerald-500 shadow-lg hover:scale-110"
-            >
-              {social.icon}
-            </a>
-          ))}
-        </div>
+              <div className="flex items-center gap-4">
+                {socialLinks.map((social) => (
+                  <a
+                    key={social.name}
+                    href={social.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={social.name}
+                    className="p-3 bg-white/5 hover:bg-emerald-500 hover:text-black text-gray-300 rounded-xl transition-all duration-300 border border-white/10 hover:border-emerald-500 shadow-lg hover:scale-110"
+                  >
+                    {social.icon}
+                  </a>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -243,5 +255,3 @@ const socialLinks = [
     </section>
   );
 }
-
-
