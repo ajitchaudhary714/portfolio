@@ -1,20 +1,34 @@
+
+
+
 "use client";
 
 import React from "react";
-import Image from "next/image"; // Agar React.js use kar rahe hain to <img> tag use kar sakte hain
+import { 
+  SiHtml5, 
+  
+  SiBootstrap, 
+  SiJavascript, 
+  SiReact, 
+  SiNextdotjs, 
+  SiTailwindcss, 
+  SiNodedotjs, 
+  SiMongodb 
+} from "react-icons/si";
+import { IoLogoCss3 } from "react-icons/io5";
+
 import Background from "./Background"; // Floating Tech Icons Background
 
 export default function About() {
   const skills = [
-    { name: "HTML5", bg: "bg-orange-600" },
-    { name: "CSS3", bg: "bg-blue-600" },
-    { name: "Bootstrap", bg: "bg-purple-600" },
-    { name: "JavaScript", bg: "bg-yellow-500 text-black" },
-    { name: "React.js", bg: "bg-cyan-500 text-black" },
-    { name: "Next.js", bg: "bg-white text-black" },
-    { name: "Tailwind", bg: "bg-sky-400 text-black" },
-    { name: "Node.js", bg: "bg-green-600" },
-    { name: "MongoDB", bg: "bg-emerald-600" },
+    { name: "HTML5", icon: SiHtml5, color: "hover:text-orange-500 hover:border-orange-500/50" },
+{ name: "CSS3", icon:  IoLogoCss3, color: "hover:text-blue-500 hover:border-blue-500/50" },    { name: "Bootstrap", icon: SiBootstrap, color: "hover:text-purple-500 hover:border-purple-500/50" },
+    { name: "JavaScript", icon: SiJavascript, color: "hover:text-yellow-400 hover:border-yellow-400/50" },
+    { name: "React.js", icon: SiReact, color: "hover:text-cyan-400 hover:border-cyan-400/50" },
+    { name: "Next.js", icon: SiNextdotjs, color: "hover:text-white hover:border-white/50" },
+    { name: "Tailwind CSS", icon: SiTailwindcss, color: "hover:text-sky-400 hover:border-sky-400/50" },
+    { name: "Node.js", icon: SiNodedotjs, color: "hover:text-green-500 hover:border-green-500/50" },
+    { name: "MongoDB", icon: SiMongodb, color: "hover:text-emerald-500 hover:border-emerald-500/50" },
   ];
 
   return (
@@ -53,33 +67,39 @@ export default function About() {
           <div className="mb-6">
             <h3 className="text-emerald-400 font-bold text-base md:text-lg mb-1">Education:</h3>
             <p className="font-semibold text-sm sm:text-base text-white">Bachelor of Technology (CSE)</p>
-            <p className="text-gray-400  text-xs sm:text-sm">Dr. A.P.J. Abdul Kalam Technical University, Lucknow | 2019-2023
-
-</p>
- <p className="text-gray-400 text-xs sm:text-sm">8.3 CGPA
-
-</p>
+            <p className="text-gray-400 text-xs sm:text-sm">
+              Dr. A.P.J. Abdul Kalam Technical University, Lucknow | 2019-2023
+            </p>
+            <p className="text-gray-400 text-xs sm:text-sm">8.3 CGPA</p>
           </div>
 
           {/* Experience Section */}
           <div className="mb-8">
             <h3 className="text-emerald-400 font-bold text-base sm:text-lg mb-1">Experience:</h3>
             <p className="font-semibold text-sm sm:text-base text-white">Frontend Developer</p>
-            <p className="text-gray-400 text-xs  sm:text-sm">2+ Years of Hands-on Experience</p>
+            <p className="text-gray-400 text-xs sm:text-sm">2+ Years of Hands-on Experience</p>
           </div>
 
-          {/* Main Skills Badges */}
+          {/* Main Skills Icons Section */}
           <div>
-            <h3 className="text-emerald-400 font-bold  text-base sm:text-lg mb-3">Here are my main skills:</h3>
-            <div className="flex flex-wrap gap-2.5">
-              {skills.map((skill, idx) => (
-                <span
-                  key={idx}
-                  className={`px-3 py-1.5 rounded-md text-xs font-bold shadow-md hover:scale-105 transition-transform duration-200 cursor-default ${skill.bg}`}
-                >
-                  {skill.name}
-                </span>
-              ))}
+            <h3 className="text-emerald-400 font-bold text-base sm:text-lg mb-4">
+              Here are my main skills:
+            </h3>
+            <div className="flex flex-wrap gap-2 md:gap-4">
+              {skills.map((skill, idx) => {
+                const Icon = skill.icon;
+                return (
+                  <div
+                    key={idx}
+                    title={skill.name} // Hover karne par skill name show karega
+                    className={`p-2 sm:p-3 bg-white/5 border border-white/10 rounded-xl text-gray-400 
+                      transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg 
+                      flex items-center justify-center group ${skill.color}`}
+                  >
+                    <Icon className="text-xl sm:text-2xl transition-colors duration-300" />
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -90,7 +110,6 @@ export default function About() {
             {/* Glowing Accent Gradient Background */}
             <div className="absolute inset-0 bg-gradient-to-tr from-emerald-500/20 via-purple-500/20 to-pink-500/20 z-0" />
             
-            {/* Replace /profile.jpg with your photo path in public folder */}
             <img
               src="/image.png" 
               alt="Ajit Verma"

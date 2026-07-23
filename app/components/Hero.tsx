@@ -47,7 +47,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative  bg-[#121212] text-white flex items-center justify-center pt-20 px-4 sm:px-6 overflow-hidden"
+      className="relative  bg-[#121212] text-white flex items-center justify-center pt-16 md:pt-28 px-4 sm:px-6 overflow-hidden"
     >
       {/* Animated Floating Background Icons */}
       <Background />
