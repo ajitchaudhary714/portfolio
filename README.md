@@ -4,7 +4,7 @@ A modern and responsive developer portfolio built with **Next.js**, **React.js**
 
 ## 🌐 Live Demo
 
-🔗 https://your-portfolio-url.vercel.app
+🔗 https://ajit-verma.vercel.app/
 
 ## 📸 Preview
 
@@ -87,7 +87,7 @@ Open http://localhost:3000 in your browser.
 
 **Ajit Verma**
 
-📧 Email: your-email@example.com
+📧 Email: ajitchaudhary714@gmail.com
 
 💼 LinkedIn: https://www.linkedin.com/in/ajit-verma-174ba5250/
 
