@@ -131,15 +131,15 @@ export default function Navbar() {
   }, []);
 
   // Client-side Resume Download Handler
-  const handleDownloadResume = () => {
-    const link = document.createElement("a");
-    link.href = "/resume.pdf";
-    link.download = "Ajit_Verma_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    setIsOpen(false); // Close mobile drawer on download
-  };
+  // const handleDownloadResume = () => {
+  //   const link = document.createElement("a");
+  //   link.href = "/resume.pdf";
+  //   link.download = "Ajit_Verma_Resume.pdf";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  //   setIsOpen(false); // Close mobile drawer on download
+  // };
 
   return (
     <nav
@@ -187,12 +187,12 @@ export default function Navbar() {
             ))}
           </ul>
 
-          <button
+          {/* <button
             onClick={handleDownloadResume}
             className="bg-emerald-500 hover:bg-emerald-600 text-black font-bold px-5 py-2 rounded-full transition-all duration-300 shadow-lg shadow-emerald-500/20 active:scale-95 text-xs tracking-wider uppercase"
           >
             Resume
-          </button>
+          </button> */}
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -240,14 +240,14 @@ export default function Navbar() {
               </a>
             </li>
           ))}
-          <li className="pt-2">
+          {/* <li className="pt-2">
             <button
               onClick={handleDownloadResume}
               className="bg-emerald-500 hover:bg-emerald-600 text-black font-bold px-6 py-2.5 rounded-full transition-all duration-300 shadow-lg shadow-emerald-500/20 text-xs tracking-wider uppercase"
             >
               Resume
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

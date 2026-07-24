@@ -5,14 +5,14 @@ import Background from "./Background"; // Floating icons overlay
 
 export default function Hero() {
   // Direct Client-side Resume Download Functionality
-  const handleDownloadResume = () => {
-    const link = document.createElement("a");
-    link.href = "/resume.pdf"; // Ensure resume.pdf is inside public/ folder
-    link.download = "Ajit_Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+  // const handleDownloadResume = () => {
+  //   const link = document.createElement("a");
+  //   link.href = "/resume.pdf"; // Ensure resume.pdf is inside public/ folder
+  //   link.download = "Ajit_Resume.pdf";
+  //   document.body.appendChild(link);
+  //   link.click();
+  //   document.body.removeChild(link);
+  // };
 
    const socialLinks = [
     {
@@ -84,13 +84,18 @@ Building Scalable <span className="text-emerald-400">Frontend & Full-Stack</span
             >
               Contact
             </a>
+             <a
+              href="#projects"
+              className="border border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 font-semibold px-8 py-3 rounded-full transition-all duration-300 active:scale-95"
+            >
+Projects            </a>
 
-            <button
+            {/* <button
               onClick={handleDownloadResume}
               className="border border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 font-semibold px-8 py-3 rounded-full transition-all duration-300 active:scale-95"
             >
               Download CV
-            </button>
+            </button> */}
  
           </div>
           <div className="flex items-center gap-4">
