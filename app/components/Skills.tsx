@@ -22,8 +22,8 @@ export default function Skills() {
     {
       category: "Backend & Databases",
       skills: [
-        { name: "Node.js", level: "50%" },
-        { name: "Express.js", level: "50%" },
+        { name: "Node.js", level: "80%" },
+        { name: "Express.js", level: "80%" },
         { name: "REST APIs Integration", level: "90%" },
         { name: "MongoDB", level: "70%" },
       ],

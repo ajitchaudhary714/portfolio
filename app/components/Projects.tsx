@@ -11,7 +11,8 @@ export default function Projects() {
       title: "MySkillWallet",
       description:
         "AI-powered talent management & skills platform designed to streamline skill verification and career growth.",
-      tags: ["React.js", "Next.js", "Tailwind CSS", "REST API"],
+
+tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Next.js", "REST API"],
       link: "https://myskillwallet.ai/",
       category: "AI & EdTech Platform",
     },
@@ -19,7 +20,7 @@ export default function Projects() {
       title: "Conqt",
       description:
         "Enterprise B2B marketplace platform for seamless software acquisition and vendor management solutions.",
-      tags: ["React.js", "Tailwind CSS", "Redux", "Node.js"],
+      tags: ["React.js", "Tailwind CSS", "Redux", "JavaScript"],
       link: "https://conqt.com/",
       category: "B2B Marketplace",
     },
@@ -27,7 +28,8 @@ export default function Projects() {
       title: "Troven AI",
       description:
         "Innovative AI-driven platform delivering smart automated workflows and data intelligence tools.",
-      tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+
+tags: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
       link: "https://troven.ai/",
       category: "AI Platform",
     },
@@ -35,7 +37,7 @@ export default function Projects() {
       title: "SSN Curvv AI",
       description:
         "Modern analytics and AI dashboard application with rich data visualization and smooth interactivity.",
-      tags: ["React.js", "Recharts", "Tailwind CSS", "REST API"],
+tags: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
       link: "https://ssn.curvv-ai.com/",
       category: "AI Dashboard",
     },
@@ -43,7 +45,7 @@ export default function Projects() {
       title: "Upahaar Setu",
       description:
         "Digital web application focused on seamless gifting, donations, and social connect services.",
-      tags: ["React.js", "JavaScript", "Tailwind CSS", "Web APIs"],
+tags: ["React.js", "Next.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
       link: "https://upahaarsetu.com/",
       category: "Web Application",
     },

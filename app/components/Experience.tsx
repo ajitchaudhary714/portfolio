@@ -7,55 +7,67 @@ import Background from "./Background"; // Floating Tech Icons Background
 export default function Experience() {
   // Professional Experience Data
   const experiences = [
-    {
-      company: "Self-Employed",
-      role: "Freelance Frontend Developer",
-      duration: "Jan 2026 – Present",
-      location: "Remote",
-      highlights: [
-        "Developed and deployed modern web applications using React.js, Next.js, TypeScript, and Tailwind CSS.",
-        "Integrated REST APIs and third-party services for authentication, payments, and data management.",
-        "Built AI-powered features using OpenAI APIs, including intelligent content generation, chat assistants, and automation workflows.",
-        "Implemented dynamic dashboards, reusable component libraries, and responsive user interfaces.",
-        "Worked with React Hook Form, Zod, Redux Toolkit, and TanStack Query for scalable frontend architecture.",
-        "Optimized application performance through code splitting, lazy loading, and SEO best practices in Next.js.",
-        "Collaborated directly with clients to gather requirements, deliver projects, and provide ongoing technical support."
-      ],
-      skills: [
-        "React.js",
-        "Next.js",
-        "TypeScript",
-        "Tailwind CSS",
-        "OpenAI API",
-        "TanStack Query",
-        "React Hook Form",
-        "Zod",
-        "Redux Toolkit",
-        "REST APIs"
-      ]
-    },
-    {
-      company: "RedSecOps Cyber India Pvt Ltd ",
-      role: "Frontend Developer",
-      duration: "Nov 2023 - Jan 2026",
-      location: "Full-Time",
-      highlights: [
-        "Architected and optimized responsive web dashboards using React.js, Next.js, and Tailwind CSS.",
-        "Engineered dynamic user interfaces with smooth interactive animations leveraging Framer Motion.",
-        "Seamlessly integrated complex RESTful APIs and state management to enhance overall platform performance.",
-      ],
-      skills: [
-        "Next.js (App Router)",
-        "TypeScript",
-        "JavaScript (ES6+)",
-        "Tailwind CSS",
-        "Framer Motion",
-        "Redux Toolkit ",
-        "REST APIs & GraphQL",
-        "Shadcn UI",
-        "Git & GitHub",
-      ]
-    },
+   
+{
+  company: "TriArmour AI Private Limited ",
+  role: "Freelance MERN Stack Developer",
+  duration: "Jan 2026 – Present",
+  location: "Remote",
+  highlights: [
+    "Developed and deployed scalable web applications using React.js, Next.js, Node.js, Express.js, and MongoDB.",
+    "Built responsive and reusable user interfaces using React.js, Next.js, TypeScript, and Tailwind CSS.",
+    "Developed and integrated RESTful APIs using Node.js and Express.js for authentication, data management, and application workflows.",
+    "Implemented secure authentication and authorization using JWT and managed database operations with MongoDB and Mongoose.",
+    "Built AI-powered features using OpenAI APIs, including intelligent content generation, chat assistants, and automation workflows.",
+    "Implemented state management, form validation, and API data handling using Redux Toolkit, React Hook Form, Zod, and TanStack Query.",
+    "Optimized application performance, responsiveness, and scalability while collaborating with clients to understand requirements and deliver production-ready solutions."
+  ],
+  skills: [
+    "React.js",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Mongoose",
+    "TypeScript",
+    "Tailwind CSS",
+    "REST APIs",
+    "JWT",
+    "OpenAI API",
+    "Redux Toolkit",
+    "TanStack Query",
+    "React Hook Form",
+    "Zod"
+  ]
+},
+
+  
+{
+  company: "RedSecOps Cyber India Pvt Ltd ",
+  role: "MERN Stack Developer",
+  duration: "Nov 2023 - Jan 2026",
+  location: "Full-Time",
+  highlights: [
+    "Developed and optimized responsive web applications using React.js, Next.js, Node.js, Express.js, and MongoDB.",
+    "Built dynamic user interfaces and reusable components with React.js, Next.js, Tailwind CSS, and Framer Motion.",
+    "Integrated RESTful APIs and implemented state management using Redux Toolkit to deliver scalable and high-performance applications.",
+  ],
+
+  skills: [
+    "Next.js (App Router)",
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "TypeScript",
+    "JavaScript (ES6+)",
+    "Tailwind CSS",
+    "Redux Toolkit",
+    "REST APIs",
+    "Git & GitHub",
+  ]
+},
+
     {
       company: "Tech Curve AI",
       role: "Frontend Developer",

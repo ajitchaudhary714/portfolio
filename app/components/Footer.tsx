@@ -46,8 +46,7 @@ export default function Footer() {
             &lt;<span className="text-emerald-400">Ajit Verma</span>/&gt;
           </h2>
           <p className="text-gray-400 text-xs mt-1">
-            Frontend & Full Stack Developer
-          </p>
+MERN Stack Developer          </p>
         </div>
 
         {/* Social Links Icons Row */}
