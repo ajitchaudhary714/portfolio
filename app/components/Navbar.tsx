@@ -64,7 +64,8 @@ export default function Navbar() {
               <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
             </div>
             <span className="text-[10px] font-mono uppercase tracking-widest text-emerald-400/80 font-semibold">
-MERN Stack Developer            </span>
+              Frontend Developer
+            </span>
           </div>
         </a>
 
