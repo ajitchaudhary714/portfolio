@@ -51,20 +51,20 @@ export default function About() {
   <div className="text-gray-300 space-y-4 text-sm sm:text-base leading-relaxed mb-6">
     <p>
       Hi there! I'm <span className="font-bold text-white">Ajit Verma</span>, 
-      a passionate <span className="font-bold text-white">MERN Stack Developer</span> 
-      with 2.5+ years of hands-on experience building modern, scalable, and user-friendly web applications.
+      a passionate <span className="font-bold text-white">Frontend Developer</span> 
+      with 3 years of hands-on experience building modern, scalable, and user-friendly web applications.
     </p>
 
     <p>
-      I work with{" "}
+      I specialize in{" "}
       <span className="font-bold text-white">
-        MongoDB, Express.js, React.js, and Node.js
+        React.js, Next.js, JavaScript, and TypeScript
       </span>{" "}
-      to develop reliable web applications and RESTful APIs. I also use{" "}
+      to develop responsive and interactive web applications. I also use{" "}
       <span className="font-bold text-white">
-        Next.js, Redux Toolkit, Tailwind CSS, JWT, and Mongoose
+        Redux Toolkit, Tailwind CSS, React Hooks, REST APIs, JWT, and Node.js
       </span>{" "}
-      to build responsive interfaces, secure application flows, and efficient backend solutions.
+      to build reusable interfaces, efficient application flows, and seamless API integrations.
     </p>
 
     <p>

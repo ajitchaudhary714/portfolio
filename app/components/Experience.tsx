@@ -10,45 +10,43 @@ export default function Experience() {
    
 {
   company: "TriArmour AI Private Limited ",
-  role: "Freelance MERN Stack Developer",
-  duration: "Jan 2026 – Present",
+  role: "Frontend Developer",
+  duration: "Feb 2026 – Present",
   location: "Remote",
   highlights: [
-    "Developed and deployed scalable web applications using React.js, Next.js, Node.js, Express.js, and MongoDB.",
-    "Built responsive and reusable user interfaces using React.js, Next.js, TypeScript, and Tailwind CSS.",
-    "Developed and integrated RESTful APIs using Node.js and Express.js for authentication, data management, and application workflows.",
-    "Implemented secure authentication and authorization using JWT and managed database operations with MongoDB and Mongoose.",
-    "Built AI-powered features using OpenAI APIs, including intelligent content generation, chat assistants, and automation workflows.",
-    "Implemented state management, form validation, and API data handling using Redux Toolkit, React Hook Form, Zod, and TanStack Query.",
+    "Developed and deployed scalable web applications using React.js, Next.js, TypeScript, and Tailwind CSS.",
+    "Built responsive and reusable user interfaces using React.js, Next.js, React Hooks, and component-based architecture.",
+    "Integrated RESTful APIs using Axios and Fetch for authentication, data management, and application workflows.",
+    "Implemented application state management using Redux Toolkit and handled form validation and API data efficiently.",
+    "Built modern and interactive UI features with a strong focus on responsive design, usability, and user experience.",
+    "Implemented authentication workflows using JWT and integrated frontend applications with backend services.",
     "Optimized application performance, responsiveness, and scalability while collaborating with clients to understand requirements and deliver production-ready solutions."
   ],
   skills: [
     "React.js",
     "Next.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Mongoose",
     "TypeScript",
+    "JavaScript (ES6+)",
     "Tailwind CSS",
+    "Redux Toolkit",
+    "React Hooks",
     "REST APIs",
     "JWT",
-    "OpenAI API",
-    "Redux Toolkit",
-    "TanStack Query",
+    "Axios",
     "React Hook Form",
-    "Zod"
+    "Zod",
+    "TanStack Query"
   ]
 },
 
   
 {
   company: "RedSecOps Cyber India Pvt Ltd ",
-  role: "MERN Stack Developer",
-  duration: "Nov 2023 - Jan 2026",
+  role: "Frontend Developer",
+  duration: "Jan 2024 - Jan 2026",
   location: "Full-Time",
   highlights: [
-    "Developed and optimized responsive web applications using React.js, Next.js, Node.js, Express.js, and MongoDB.",
+    "Developed and optimized responsive web applications using React.js, Next.js, TypeScript, and JavaScript.",
     "Built dynamic user interfaces and reusable components with React.js, Next.js, Tailwind CSS, and Framer Motion.",
     "Integrated RESTful APIs and implemented state management using Redux Toolkit to deliver scalable and high-performance applications.",
   ],
@@ -56,14 +54,12 @@ export default function Experience() {
   skills: [
     "Next.js (App Router)",
     "React.js",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
     "TypeScript",
     "JavaScript (ES6+)",
     "Tailwind CSS",
     "Redux Toolkit",
     "REST APIs",
+    "Framer Motion",
     "Git & GitHub",
   ]
 },
@@ -75,8 +71,8 @@ export default function Experience() {
       location: " Remote",
       highlights: [
         "Developed cross-browser compatible, high-performing web interfaces following modern UI/UX design guidelines.",
-        "Managed application state efficiently using Redux Toolkit, significantly reducing overall page load times.",
-        "Collaborated with cross-functional teams, UI/UX designers, and backend engineers to deliver scalable features.",
+        "Built reusable React.js components and managed application state efficiently using Redux Toolkit.",
+        "Collaborated with cross-functional teams, UI/UX designers, and backend engineers to deliver scalable frontend features.",
       ],
       skills: ["JavaScript", "React.js", "Redux Toolkit", "HTML5/CSS3", "Bootstrap", "Git"],
     },

@@ -65,11 +65,11 @@ export default function Hero() {
   </h1>
 
   <h3 className="text-base sm:text-xl font-bold text-emerald-400 mb-6">
-    Building Scalable <span className="text-emerald-400">MERN Stack </span> Web Applications
+    Building Scalable <span className="text-emerald-400">Frontend </span> Web Applications
   </h3>
 
   <p className="text-gray-400 text-sm sm:text-lg leading-relaxed max-w-2xl mb-8 font-normal">
-    MERN Stack Developer specializing in building high-performance, scalable, and responsive web applications using <span className="text-emerald-400 font-semibold">React.js</span>, <span className="text-emerald-400 font-semibold">Next.js</span>, <span className="text-emerald-400 font-semibold">Node.js</span>, and <span className="text-emerald-400 font-semibold">Express.js</span>. Skilled in developing RESTful APIs, implementing authentication and authorization with <span className="text-emerald-400 font-semibold">JWT</span>, and managing data with <span className="text-emerald-400 font-semibold">MongoDB</span> and <span className="text-emerald-400 font-semibold">Mongoose</span>. Experienced in state management with <span className="text-emerald-400 font-semibold">Redux Toolkit</span> and creating modern, responsive UIs using <span className="text-emerald-400 font-semibold">Tailwind CSS</span>, with a focus on clean architecture, optimized performance, and seamless user experiences.
+    Frontend Developer with 3 years of experience building high-performance, scalable, and responsive web applications using <span className="text-emerald-400 font-semibold">React.js</span>, <span className="text-emerald-400 font-semibold">Next.js</span>, <span className="text-emerald-400 font-semibold">JavaScript</span>, and <span className="text-emerald-400 font-semibold">TypeScript</span>. Skilled in developing reusable components, integrating RESTful APIs, implementing authentication with <span className="text-emerald-400 font-semibold">JWT</span>, and managing application state with <span className="text-emerald-400 font-semibold">Redux Toolkit</span>. Experienced in creating modern, responsive UIs using <span className="text-emerald-400 font-semibold">Tailwind CSS</span>, with a strong focus on clean architecture, optimized performance, and seamless user experiences.
   </p>
 
   {/* Action Buttons */}
@@ -112,7 +112,6 @@ export default function Hero() {
   </div>
 
 </motion.div>
-
         
     
         {/* Right Side Illustration/Graphic Area */}
